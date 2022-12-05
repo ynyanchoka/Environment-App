@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:wght@700&family=Poppins:wght@200;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+  
+  /* .introduction {
+    background-image: url(../assets/wolfgang-hasselmann-pVr6wvUneMk-unsplash.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: aliceblue;
+    text-align: center;
+    background-attachment: fixed;
+  } */
+
+
+  .bg-img {
+    background-image: url("../assets/wolfgang-hasselmann-pVr6wvUneMk-unsplash.jpg");
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 200px;
+    background-attachment: fixed;
+  }
+  
+  
+  .topnav {
+    background-color: transparent;
+    padding: 30px 10px;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-width: 1366px;
+    
+  }
+  
+  /* Navbar links */
+  .topnav a {
+    float: left;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 12px;
+    line-height: 25px;
+  }
+  
+  
+  .topnav #logo {
+    font-size: 35px;
+    font-weight: bold;
+  }
+ 
+  .topnav a:hover {
+    color:#00A1AD;
+  }
+  
+  .intro {
+    color:#273D2A;
+    margin-top: 20%;
+    text-align: center;
+  }
+  .intro h1 {
+    font-size: 65px;
+  }
+
+
+.wedo {
+  display: flex;
+  height:400px;
+}
+.wedo .mainrunner {
+  flex-grow: 1;
+  flex-basis: 40%;
+  min-width: 200px;
+  margin-top:100px;
+
+}
+.mainrunner img {
+  display: block;
+  max-width: 100%;
+  max-height: 300px;
+}
+.text-wedo {
+  flex-grow: 1;
+  flex-basis: 60%;
+  min-width: 100px;
+  padding-left:150px;
+  padding-right:150px;
+  padding-top:100px;
+  word-spacing: 12px;
+  font-weight: lighter;
+}
+
+.mainrunner {
+  padding-right:100px;
+
+}
+
+.img1 {
+  position: relative;
+  z-index: 1;
+  width:60%;
+  border-radius:10px;
+}
+
+.img2 {
+  position: relative;
+  z-index: 2;
+  top: -60px;
+  right: -190px;
+  width:40%;
+  border-radius:10px;
+}
+.wedoheading{
+  text-align: center;
+  margin-top: 40px;
+  font-weight:bold;
+}
