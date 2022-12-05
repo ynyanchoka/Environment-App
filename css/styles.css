@@ -94,7 +94,7 @@
   padding-left:150px;
   padding-right:150px;
   padding-top:100px;
-  word-spacing: 12px;
+  word-spacing: normal;
   font-weight: lighter;
 }
 
@@ -121,5 +121,30 @@
 .wedoheading{
   text-align: center;
   margin-top: 40px;
-  font-weight:bold;
+  font-weight: 500;
 }
+.theme{
+  padding-top:10px;
+  padding-bottom: 40px;
+  background-image: url("../assets/estevao-gedraite-UPKRugpyVM4-unsplash\ 2.png");
+  background-position: center ;
+  background-repeat:no-repeat;
+  background-size:cover;
+  }
+  .theme p{
+    font-weight: lighter;
+    word-spacing: normal;
+  }
+  .theme h5{
+    font-weight:500;
+  }
+  .involved{
+    padding:40px;
+    }
+  .involved h5{
+      font-weight:500;
+    }
+  .involved p{
+      font-weight: lighter;
+      word-spacing: normal;
+    }
