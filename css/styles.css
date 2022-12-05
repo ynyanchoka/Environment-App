@@ -335,7 +335,6 @@
   background-position: fixed;
 } */
 .bgimg-contact{
-  padding-top:10px;
   padding-bottom: 150px;
   background-image: url("../Assets/estevao-gedraite-UPKRugpyVM4-unsplash.jpg");
   background-position: center ;
@@ -346,7 +345,7 @@
   .contact-card {
     margin-top: 5%;
   }
-.card{
+.contact-card .card{
   border-radius: 20px;
   width: 50%;
   display: block;
@@ -373,4 +372,20 @@
   display: block;
   margin-left: auto;
   margin-right: auto
+}
+.events .btn{
+border-radius: 20px;
+}
+.events h2{
+  text-align: left;
+  font-weight: bold;
+  padding-top: 70px;
+}
+.events .card{
+  border-radius: 20px;
+  width: 35rem;
+}
+.events .col-md-4{
+  margin-left: 10px;
+  padding: 10px;
 }
