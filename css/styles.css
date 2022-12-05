@@ -8,16 +8,6 @@
   font-family: "Poppins", sans-serif;
 }
   
-  /* .introduction {
-    background-image: url(../assets/wolfgang-hasselmann-pVr6wvUneMk-unsplash.jpg);
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: aliceblue;
-    text-align: center;
-    background-attachment: fixed;
-  } */
-
 
   .bg-img {
     background-image: url("../assets/wolfgang-hasselmann-pVr6wvUneMk-unsplash.jpg");
@@ -30,7 +20,7 @@
   
   
   .topnav {
-    background-color: transparent;
+    background-color:transparent;
     padding: 30px 10px;
     top: 0;
     left: 0;
