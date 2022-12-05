@@ -14,7 +14,7 @@
     background-position: center ;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-bottom: 200px;
+    padding-bottom: 400px;
     background-attachment: fixed;
   }
   
@@ -36,7 +36,7 @@
     color: #000;
     text-align: center;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
     padding: 12px;
     line-height: 25px;
   }
@@ -289,8 +289,8 @@
       flex-grow: 1;
       flex-basis: 60%;
       min-width: 100px;
-      padding-left:150px;
-      padding-right:150px;
+      padding-left:100px;
+      padding-right:100px;
       padding-top:150px;
       font-weight: lighter;
     }
@@ -318,9 +318,59 @@
 
     /* Mission */
 .mission{
-  padding-left:150px ;
-  padding-right:150px;
+  padding-left:100px ;
+  padding-right:100px;
 }
 .mission p{
   font-weight: lighter;
+}
+
+/* contact us */
+/* .bgimg-contact{
+  background-image: url("../Assets/estevao-gedraite-UPKRugpyVM4-unsplash\ 2.png");
+  background-position: center ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 400px;
+  background-position: fixed;
+} */
+.bgimg-contact{
+  padding-top:10px;
+  padding-bottom: 150px;
+  background-image: url("../Assets/estevao-gedraite-UPKRugpyVM4-unsplash.jpg");
+  background-position: center ;
+  background-repeat:no-repeat;
+  background-size:cover;
+
+  }
+  .contact-card {
+    margin-top: 5%;
+  }
+.card{
+  border-radius: 20px;
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(255, 255, 255, .4);
+ 
+}
+
+.contact-card .form-control{
+  border-radius:20px;
+  border-color: #000;
+
+}
+.contact-card .form-group{
+  padding-right: 30px;
+  padding-left: 30px;
+}
+.contact-card .btn{
+  background-color: #273D2A;
+  color: #fff;
+  padding: 10px 80px;
+  border-radius: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
 }
